@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="x-icon" href="img/half-logo.webp">
+    <title>Evento | Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f312036990.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        <?php require "style.php"; ?>
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- navbar -->
+
+    <div class="main" id="main">
+        <?php require_once "nav.php"; ?>
+
+        <div class="container my-5" style="position: relative; z-index: 11;">
+
+            <h1 class="text-light big-text text-uppercase">BLOG</h1>
+
+        </div>
+    </div>
+
+    <a href="#main">
+        <div class="doodle bg-warning">
+            <i class="fa-solid fa-chevron-up text-light"></i>
+        </div>
+    </a>
+
+
+    <div class="container-fluid bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 blog-bar">
+
+
+
+                    <div class="blog-card">
+                        <div class="blog-img" id="blog-img1">
+                            <div class="blog-date">
+                                <p class="fs-2 fw-bolder text-light blog-date-text">15</p>
+
+                                <p class="fs-5 fw-light text-light blog-date-text">Jan</p>
+                            </div>
+                        </div>
+                        <div class="blog-desc p-4">
+                            <a class="fs-4 fw-bolder text-light blog-date-text-l">Google inks pact for new 35-storey
+                                office</a>
+                            <p class="text-light fs-6">That dominion stars lights dominion divide years for fourth have
+                                don't
+                                stars is that he earth it first without heaven in place seed it second morning saying.
+                            </p>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-user"></i> Travel,Lifestyle</a>
+                            <span> | </span>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-comments"></i> 03,Comments</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="blog-card">
+                        <div class="blog-img" id="blog-img2">
+                            <div class="blog-date">
+                                <p class="fs-2 fw-bolder text-light blog-date-text">15</p>
+
+                                <p class="fs-5 fw-light text-light blog-date-text">Jan</p>
+                            </div>
+                        </div>
+                        <div class="blog-desc p-4">
+                            <a class="fs-4 fw-bolder text-light blog-date-text-l">Google inks pact for new 35-storey
+                                office</a>
+                            <p class="text-light fs-6">That dominion stars lights dominion divide years for fourth have
+                                don't
+                                stars is that he earth it first without heaven in place seed it second morning saying.
+                            </p>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-user"></i> Travel,Lifestyle</a>
+                            <span> | </span>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-comments"></i> 03,Comments</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="blog-card">
+                        <div class="blog-img" id="blog-img3">
+                            <div class="blog-date">
+                                <p class="fs-2 fw-bolder text-light blog-date-text">15</p>
+
+                                <p class="fs-5 fw-light text-light blog-date-text">Jan</p>
+                            </div>
+                        </div>
+                        <div class="blog-desc p-4">
+                            <a class="fs-4 fw-bolder text-light blog-date-text-l">Google inks pact for new 35-storey
+                                office</a>
+                            <p class="text-light fs-6">That dominion stars lights dominion divide years for fourth have
+                                don't
+                                stars is that he earth it first without heaven in place seed it second morning saying.
+                            </p>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-user"></i> Travel,Lifestyle</a>
+                            <span> | </span>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-comments"></i> 03,Comments</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="blog-card">
+                        <div class="blog-img" id="blog-img4">
+                            <div class="blog-date">
+                                <p class="fs-2 fw-bolder text-light blog-date-text">15</p>
+
+                                <p class="fs-5 fw-light text-light blog-date-text">Jan</p>
+                            </div>
+                        </div>
+                        <div class="blog-desc p-4">
+                            <a class="fs-4 fw-bolder text-light blog-date-text-l">Google inks pact for new 35-storey
+                                office</a>
+                            <p class="text-light fs-6">That dominion stars lights dominion divide years for fourth have
+                                don't
+                                stars is that he earth it first without heaven in place seed it second morning saying.
+                            </p>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-user"></i> Travel,Lifestyle</a>
+                            <span> | </span>
+                            <a href="#" class="blog-sm-link"><i class="fa-solid fa-comments"></i> 03,Comments</a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-12 col-md-4 side-bar">
+
+                    <div class="bg-light search p-4">
+                        <div class="custom-file">
+                            <input type="text" class="custom-file-input px-2 py-3 border-0" id="inputGroupFile02"
+                                placeholder="Search Keywords">
+                            <label class="custom-file-label px-4 py-3 border-0" for="inputGroupFile02">Search</label>
+                        </div>
+
+                    </div>
+
+                    <div class="bg-light search p-4">
+                        <h4 style="font-family: 'Balsamiq Sans', cursive;">Category</h4>
+                        <hr>
+                        <a href="#" class="side-link">Resaurant food(37)</a>
+                    <hr>
+                    <a href="#" class="side-link">Travel News(10)</a>
+                    <hr>
+                    <a href="#" class="side-link">Modern Technology(27)</a>
+                    <hr>
+                    <a href="#" class="side-link">Product(22)</a>
+                    <hr>
+                    <a href="#" class="side-link">Inspiration(07)</a>
+                    <hr>
+                    <a href="#" class="side-link">Health CAre(29)</a>
+                    
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid bg py-1">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="/img/logo.webp" alt="" class="d-block pb-4">
+                    <p class="lorem lh-lg">Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum.
+                        Explicabo, maiores quisquam numquam quia reiciendis sit, accus antium atque ex animi
+                        perspiciatis ab odit earum assumenda aliquid santium.
+                    </p>
+                    <div class="row pb-4">
+                        <div class="rounded-circle bg-primary social-b m-1"> <i
+                                class="fa-brands fa-facebook social"></i></div>
+                        <div class="rounded-circle bg-danger social-b m-1"><i class="fa-brands fa-youtube social"></i>
+                        </div>
+                        <div class="rounded-circle bg-info social-b m-1"><i class="fa-brands fa-linkedin-in social"></i>
+                        </div>
+                        <div class="rounded-circle bg-dark social-b m-1"><i class="fa-brands fa-instagram social"></i>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="fw-bold fs-3 text-light">Contact Us</p>
+                    <a href="#" class="lorem link-f d-block">3968 Carson Street, San Diego, CA 92101</a>
+                    <a href="#" class="lorem link-f d-block">info@evento.com</a>
+                    <a href="" class="fs-4 text-warning link-f d-block">10 (85) 980 3673</a>
+
+
+
+                </div>
+                <div class="col-12 col-lg-4">
+                    <p class="fw-bold fs-3 text-light">Subscribe Newsletter</p>
+                    <p class="lorem lh-lg">raising a heavy fur muff that covered the whole of her lower arm towards the
+                        viewer.
+                    </p>
+                    <input type="email" name="email" placeholder="Enter your email" class="input">
+
+                    <button type="button"
+                        class="bg-warning border-0  text-dark py-3 text-uppercase fw-bold px-5 mt-3">Subscribe</button>
+
+
+                </div>
+
+            </div>
+
+            <div class="hr my-3"></div>
+            <div class="text-center">
+                <p class="lorem text-light fs-6 fw-light">Copyright &copy; 2023 All rights reserved | This template is
+                    made by <span class="text-warning">Sheraz Hassan</span></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+
+
+
+</body>
+
+</html>
