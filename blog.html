@@ -14,11 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
-
-    <style>
-        <?php require "style.php"; ?>
-    </style>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -27,7 +23,60 @@
     <!-- navbar -->
 
     <div class="main" id="main">
-        <?php require_once "nav.php"; ?>
+
+
+        <nav class="navbar navbar-expand-lg container" data-bs-theme="dark">
+            <div class="container-fluid mt-1">
+                <a class="navbar-brand" href="#"><img src="img/logo.webp" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mt-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase fs-6 mx-2" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-uppercase fs-6 mx-2" href="speaker.html">speakers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-uppercase fs-6 mx-2" href="schedule.html">schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-uppercase fs-6 mx-2" href="location.html">location</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light text-uppercase fs-6 mx-2" href="blog.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                blog
+                            </a>
+                            <ul class="dropdown-menu bg-light">
+                                <li><a class="dropdown-item text-dark" href="blog.html">CONCERTS</a></li>
+                                <li><a class="dropdown-item text-dark" href="blog.html">HOTELING</a></li>
+                                <li>
+                                    <hr class="dropdown-divider text-dark">
+                                </li>
+                                <li><a class="dropdown-item text-dark" href="blog.html">RESORTS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-uppercase fs-6 mx-2 mr-4" href="contact.html">contact</a>
+                        </li>
+
+                    </ul>
+                    <button type="button"
+                        class="bg-warning button-book border-warning text-dark py-2 px-lg-4 fw-bold text-uppercase mt-1 ml-3">Confirm
+                        Your Seat <i class="fa-solid fa-arrow-right ml-5"></i></button>
+
+
+                </div>
+            </div>
+        </nav>
+
 
         <div class="container my-5" style="position: relative; z-index: 11;">
 
@@ -211,7 +260,7 @@
 
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <img src="/img/logo.webp" alt="" class="d-block pb-4">
+                    <img src="img/logo.webp" alt="" class="d-block pb-4">
                     <p class="lorem lh-lg">Duis aute irure dolor inasfa reprehenderit in voluptate velit esse cillum.
                         Explicabo, maiores quisquam numquam quia reiciendis sit, accus antium atque ex animi
                         perspiciatis ab odit earum assumenda aliquid santium.
